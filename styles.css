@@ -10,7 +10,7 @@ html {
   background-position: center;
   background-size: cover;
   position: relative;
-  /* color: rgb(4, 19, 51); */
+  /* color: rgb(4, 32, 94); */
   font-family: "Courier New", Courier, monospace;
 }
 
@@ -44,6 +44,12 @@ hr {
 
 @media (min-width: 1000px) {
   h1 {
-    font-size: 1.8em;
+    font-size: 1.5em;
+  }
+  .middle img {
+    max-width: 60%;
+  }
+  hr {
+    width: 60%;
   }
 }
