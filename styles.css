@@ -1,0 +1,56 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+.bgimg {
+  background-color: rgb(255, 255, 255);
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: rgb(4, 32, 94);
+  font-family: "Courier New", Courier, monospace;
+}
+
+.center {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.middle {
+  width: 100%;
+  text-align: center;
+  font-size: 3.5vw;
+}
+
+span {
+  display: block;
+}
+
+.middle img {
+  padding: 10px;
+  width: 50%;
+  height: auto;
+}
+
+hr {
+  margin: auto;
+  width: 50%;
+}
+
+/* @media (min-width: 896px) {
+  h1 {
+    font-size: 1.5em;
+  }
+  .middle img {
+    width: 60%;
+  }
+
+  hr {
+    width: 60%;
+  }
+} */
